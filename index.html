@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+</head>
+<body>
+    
+
+    <div class="h-screen w-full flex items-center justify-center">
+        <div class="grid grid-cols-3">
+            <button id="decrement" class="p-2 border-1 bg-slate-100">decrement</button>
+            <button id="value"></button>
+            <button id="increment" class="p-2 border-1 bg-slate-100">increment</button>
+        </div>
+    </div>
+
+   
+
+    <script src="https://unpkg.com/redux@5.0.0-alpha.0/dist/redux.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            }
+        }
+        }
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
